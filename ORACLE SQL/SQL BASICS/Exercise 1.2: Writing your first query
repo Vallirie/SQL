@@ -1,0 +1,3 @@
+-- Select the last name from the customer table
+Select lastName
+from customer
