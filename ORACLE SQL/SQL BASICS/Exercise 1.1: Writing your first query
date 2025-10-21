@@ -1,0 +1,3 @@
+-- Select the title from the album table
+Select title
+from album
