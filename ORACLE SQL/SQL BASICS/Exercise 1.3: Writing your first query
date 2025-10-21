@@ -1,0 +1,3 @@
+-- Select the last name and country from the customer table
+select lastName, country
+from customer
