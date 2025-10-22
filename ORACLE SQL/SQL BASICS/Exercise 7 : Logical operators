@@ -1,0 +1,6 @@
+-- Select the song name and composer from the track table
+SELECT name, composer
+FROM track
+-- Filter on composer
+WHERE Composer =  'Queen' 
+      or Composer = 'Mercury- Freddie'
