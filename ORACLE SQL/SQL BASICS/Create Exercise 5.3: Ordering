@@ -1,0 +1,5 @@
+-- Select the relevant fields from the employee table
+SELECT LastName, Title, BirthDate 
+FROM Employee
+-- Order by job title and descending birth date
+ORDER BY Title, BirthDate
