@@ -1,0 +1,4 @@
+SELECT LastName, Country
+FROM Customer
+-- Filter on the customer last name
+WHERE LastName like 'B%'
