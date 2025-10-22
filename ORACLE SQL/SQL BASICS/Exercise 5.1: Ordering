@@ -1,0 +1,3 @@
+-- Select the relevant fields from the employee table
+Select lastName, title, birthdate
+from Employee
