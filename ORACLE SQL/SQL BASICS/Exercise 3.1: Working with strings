@@ -1,0 +1,3 @@
+-- Select the first name and country from the employee table
+Select FirstName, country
+from employee
