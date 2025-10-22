@@ -1,0 +1,3 @@
+-- Select the unique composers from the track table
+SELECT distinct composer
+FROM Track
