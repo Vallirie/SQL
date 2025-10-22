@@ -1,0 +1,3 @@
+-- Create a custom message
+SELECT FirstName || q'['s home country is ]' || Country
+FROM Employee
