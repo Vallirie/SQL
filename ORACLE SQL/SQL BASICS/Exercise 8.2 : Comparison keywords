@@ -1,0 +1,6 @@
+SELECT LastName, Country
+FROM Customer
+-- Filter on the customer last name
+WHERE LastName LIKE 'B%' 
+	  -- Filter on English speaking countries
+      AND Country in ('USA', 'Canada', 'United Kingdom')
