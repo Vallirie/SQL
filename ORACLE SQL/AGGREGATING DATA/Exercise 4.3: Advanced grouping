@@ -1,0 +1,8 @@
+-- Select the BillingCountry, BillingCity, and total amount
+SELECT BillingCountry, BillingCity, SUM(Total) AS "Total invoice amount"
+FROM Invoice
+-- Filter on BillingCountry 
+WHERE BillingCountry IN ('USA', 'Canada')
+-- Group by BillingCountry and BillingCity
+GROUP BY BillingCountry, BillingCity
+-- Sort the results
