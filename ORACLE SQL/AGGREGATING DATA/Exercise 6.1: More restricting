@@ -1,0 +1,6 @@
+-- Select the title and the date of the most recent hire
+SELECT title, max(hiredate) AS "Most recent hire date"
+-- The data comes from the Employee table 
+from Employee
+-- Group by title
+Group by title
