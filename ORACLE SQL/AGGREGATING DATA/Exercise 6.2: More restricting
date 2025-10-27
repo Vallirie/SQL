@@ -1,0 +1,8 @@
+-- Select the title and the date of the most recent hire
+SELECT Title, MAX(HireDate) AS "Most recent hire date"
+-- The data comes from the Employee table 
+FROM Employee
+-- Group by title
+GROUP BY Title
+-- Exclude teams with only one member
+having COUNT(title) > 1
