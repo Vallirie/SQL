@@ -1,0 +1,9 @@
+-- Select the BillingCountry and the total billing amount
+SELECT BillingCountry, SUM(Total)
+FROM Invoice
+-- Filter out invoices from Paris
+where billingcity <> 'Paris'
+-- Group by billing country
+GROUP BY BillingCountry
+-- Exclude groups with an invoice amount of more than 100
+HAVING SUM(Total) > 100
