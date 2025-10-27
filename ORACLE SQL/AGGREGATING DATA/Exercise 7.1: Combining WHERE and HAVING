@@ -1,0 +1,7 @@
+-- Select the BillingCountry and the total billing amount
+SELECT BillingCountry, sum(total)
+FROM Invoice
+-- Group by billing country
+group by billingcountry
+-- Exclude groups with an invoice amount of more than 100
+having sum(total) > 100
