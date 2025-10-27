@@ -1,0 +1,4 @@
+-- Select the relevant columns and filter based on the condition
+SELECT InvoiceId, Total
+FROM Invoice
+WHERE Total <> 3.98
